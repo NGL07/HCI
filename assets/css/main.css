@@ -2188,14 +2188,19 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			border-radius: 100%;
-			overflow: hidden;
+			width: 200px;          /* set size */
+			height: 200px;         /* equal width & height */
+			border-radius: 50%;    /* circle */
+			overflow: hidden;      /* crop overflow */
+			display: inline-block; /* keeps it neat */
+
 		}
 
 			.image.avatar img {
-				border-radius: 100%;
-				display: block;
 				width: 100%;
+				height: 100%;
+				object-fit: cover;     /* crop to fill circle */
+				display: block;
 			}
 
 		.image.main {
