@@ -2188,8 +2188,8 @@ input, select, textarea {
 			}
 
 		.image.avatar {
-			width: 200px;          /* set size */
-			height: 200px;         /* equal width & height */
+			width: 200px !important;          /* set size */
+			height: 200px !important;         /* equal width & height */
 			border-radius: 50%;    /* circle */
 			overflow: hidden;      /* crop overflow */
 			display: inline-block; /* keeps it neat */
